@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
+.middle-section {
+
+    min-width: 400px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.figma-section {
+    background-color: green;
+    height: auto;
+}
