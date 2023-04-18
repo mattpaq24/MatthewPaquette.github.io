@@ -3,45 +3,53 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Flexbox Responsive Webpage</title>
+    <title>Matthew Paquette</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div class="name">
+                <a class="top" href="index.html">
+                    <h1 id="title">Matthew Paquette</h1>
+                </a>
+            </div>
+
+            <div class="navigation">
+                <a class="top" href="index.html">Projects</a>
+                <a class="top" href="contact.html">Contact</a>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="middle-section">
-            <h2 class="Title">Context</h2>
-            <p>This is the middle</p>
-        </section>
-        <section class="middle-section">
-            <h2 class="Title">Research</h2>
-            <h3 class="subhead">Here is a subhead</h3>
-            <p>This is the middle</p>
-            <p>This is the middle</p>
-            <ul>
-                <li>List 1</li>
-                <li>List 1</li>
-                <li>List 1</li>
-            </ul>
-        </section>
+        <div class="project-wrapper">
+            <a href="pct.html">
+                <section class="project-preview1">
+                    <div class="project-header">
+                        <h2 class="project-type">INTERACTION DESIGN</h2>
+                        <h2 class="project-title">Designing a tool for UGC</h2>
+                    </div>
+                    <div class="picture">33</div>
 
-        <section class="figma-section">
-            <p>This is the middle</p>
-        </section>
+
+
+                </section>
+            </a>
+            <a href="pct.html">
+                <section class="project-preview2">
+                    <div class="project-header">
+                        <h2 class="project-type">UX RESEARCH</h2>
+                        <h2 class="project-title">Helping our startup define a problem.</h2>
+                    </div>
+                    <div class="picture">ggggg</div>
+                </section>
+            </a>
+        </div>
     </main>
-    <footer>
-        <p>&copy; 2023 Flexbox Responsive Webpage</p>
-    </footer>
 </body>
 
 </html>
